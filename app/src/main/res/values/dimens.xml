@@ -3,4 +3,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="section_height">140dp</dimen>
+    <dimen name="margins">16dp</dimen>
 </resources>

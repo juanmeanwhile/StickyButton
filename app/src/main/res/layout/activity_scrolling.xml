@@ -42,17 +42,14 @@
         android:layout_height="40dp"
         android:text="my sticky button"
         android:background="#ff0000"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        app:layout_anchor="@id/anchor"
+        android:layout_gravity="center_horizontal|bottom"
+
         app:layout_anchorGravity="top"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@android:drawable/ic_dialog_email"/>

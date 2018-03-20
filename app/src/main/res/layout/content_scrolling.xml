@@ -42,10 +42,6 @@
             android:gravity="center"
             android:text="four"/>
 
-        <View
-            android:id="@+id/anchor"
-            android:layout_height="40dp"
-            android:layout_width="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -54,12 +50,23 @@
             android:gravity="center"
             android:text="five"/>
 
+        <View
+            android:id="@+id/anchor"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"/>
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/section_height"
+            android:layout_height="900dp"
             android:background="#eee"
             android:gravity="center"
             android:text="six"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="#e3e3e3"
+            android:gravity="center"
+            android:text="seven"/>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

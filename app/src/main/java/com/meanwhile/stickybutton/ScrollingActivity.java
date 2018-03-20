@@ -20,7 +20,7 @@ public class ScrollingActivity extends AppCompatActivity {
 
         View anchor = findViewById(R.id.anchor);
         Button button = findViewById(R.id.my_button);
-        ((CoordinatorLayout.LayoutParams) button.getLayoutParams()).setBehavior(new StickyBottomBehavior());
+        ((CoordinatorLayout.LayoutParams) button.getLayoutParams()).setBehavior(new StickyBottomBehavior(R.id.anchor, getResources().getDimensionPixelOffset(R.dimen.margins)));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
